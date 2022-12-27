@@ -1,0 +1,65 @@
+@media ( min-width:280px) and (max-width: 576px){
+	.check-items {
+		width: 100%;
+		
+	}
+	.check-id{
+		width: 100%;
+
+	}
+	.check-id p{
+		font-size: 22px;
+		
+	}
+	.check-img {
+		width: 100%;
+	}
+	.check-img img{
+		width: 100%;
+	}
+	.check-id i{
+		font-size: 18px;
+
+	}
+	.check-id h3{
+		font-size: 18px;
+		padding-top: 10px;
+		text-decoration: underline;
+		text-decoration-style: double;
+	}
+	.check-items p{
+		font-size: 18px;
+	}
+}
+
+@media ( min-width:576px) and ( max-width:768px){
+	.check-items{
+	
+		width: 100%;
+	}
+	.check-items p{
+		font-size: 20px;
+	}
+	.check-id{
+		
+		width: 50%;
+	}
+	.check-id h3{
+		font-size: 18px;
+		padding-top: 10px;
+		text-decoration: underline;
+		text-decoration-style: double;
+	}
+	.check-id p{
+		font-size: 18px;
+	
+	}
+	.check-img{
+	
+		width: 50%;
+	}
+	.check-img img{
+		width: 100%;
+		margin-top:45px;
+	}
+}
