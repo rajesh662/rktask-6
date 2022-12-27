@@ -1,0 +1,92 @@
+*{  				margin: 0;
+				    padding: 0;
+					box-sizing: border-box;
+				}
+    
+
+	
+	.container{ width: 100%;
+				margin: 0 auto;
+				
+	}
+	
+	.check-ourspeci{
+	
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		
+	}
+	.check-head{
+		width: 100%;
+		background-color: black;
+		color: white;
+		padding: 20px ;
+		position:relative;
+	}
+	.check-head h1{
+		color: orange;
+	}
+	.check-head h6{
+		color: lightgray
+	}
+	
+	.check-head h6::before{
+		position:absolute;
+		border-top: 1px solid lightgray;
+		content:" ";
+		width: 10%;
+		left: 90;
+		top:24;
+		
+		
+	}
+	
+	.check-items{
+		width: 20%;
+		background-color: black;
+		color: white;
+	
+		border-right: 1px solid orange;
+		
+		
+	}
+	.check-items p{
+		padding: 15px 0;
+		line-height: 15px;
+		padding-left: 15px;
+		
+		
+	}
+	.check-items .active{
+		background-color: orange;
+		color: black;
+	}
+	.check-id{
+		width: 60%;
+		background-color: black;
+		color: white;
+		padding-left: 20px;
+		
+	}
+	.check-id h3{
+		padding-bottom: 20px;
+	}
+	.check-id p{
+		padding-top: 20px;
+		color: lightgray;
+		font-size: 14px;
+	}
+	.check-id i{
+		font-size: 14px;
+		color: lightgray;
+	}
+	.check-img{
+		width: 20%;
+		background-color: black;
+		color: white;
+		padding-left: 20px;
+	}
+	.check-img img{
+		width: 100%;
+	}
